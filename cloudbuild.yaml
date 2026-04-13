@@ -18,3 +18,5 @@ steps:
 
 images:
   - 'gcr.io/project-317606fd-894f-479f-aeb/my-app:$SHORT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
