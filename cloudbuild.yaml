@@ -17,6 +17,6 @@ steps:
       ]
 
 images:
-  - 'gcr.io/project-317606fd-894f-479f-aeb/my-app:$SHORT_SHA'
+  - 'us-central1-docker.pkg.dev/project-317606fd-894f-479f-aeb/test-registry/my-app:$SHORT_SHA'
 options:
   logging: CLOUD_LOGGING_ONLY
